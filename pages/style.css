@@ -23,7 +23,8 @@ footer {
   color: white;
   height: 150px;
 }
-<<<<<<< HEAD
+
+/* ここから HEAD 側（drink） */
 #menu {
   width: 90vw;
   margin: 0 5vw;
@@ -56,7 +57,12 @@ footer {
 }
 
 #drink-list > table {
-=======
+  width: 35%;
+  margin-right: 5%;
+  margin-left: 10%;
+}
+
+/* ここから feature/food-style 側（food） */
 #food {
   width: 100%;
 }
@@ -68,29 +74,26 @@ footer {
 }
 
 #food-list > table {
->>>>>>> feature/food-style
   width: 35%;
   margin-right: 5%;
   margin-left: 10%;
 }
 
-<<<<<<< HEAD
+/* 画像エリア */
 #drink-image {
   height: 45vh;
   width: 50%;
   text-align: center;
 }
 
-#drink-image > img {
-=======
 #food-image {
   height: 45vh;
   width: 40%;
   text-align: center;
 }
 
+#drink-image > img,
 #food-image > img {
->>>>>>> feature/food-style
   height: 100%;
   border-radius: 50%;
 }
